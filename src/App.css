@@ -4,41 +4,79 @@
      font-family: "Poppins", sans-serif;
      font-weight: 500;
 }
+.nav-item,.nav-icon{
+ transition: transform 0.1s ease, color 0.1s ease;
+  cursor: pointer;
+  color: rgba(38, 4, 75, 0.834);
+}
+
+.nav-item:hover,.nav-icon:hover {
+  transform: scale(1.05); 
+  color: rgba(83, 9, 163, 0.834);
+  
+}
+
+
 #landing{
     background-color: #F3E8FF;
 
 }
-#cursive-text{
-    font-family: "Birthstone Bounce", cursive;
-    font-size: 125px;
-    font-weight: 500;
-    color: rgb(255, 255, 255,0.7);
-    letter-spacing: 22px;
-}
+
 #main-div-landing{
     position: relative;
 }
 #leaf1-img{
     position: absolute;
-    top: 1rem;
-    right: 2rem;
+    top: -1rem;
+    right: 7rem;
   
 }
 #leaf2-img{
     position: absolute;
-   left: 10rem;
+    left: 15rem;
     bottom: 7rem;
     
 }
 #leaf3-img{
     position: absolute;
-    top: 20rem;
-    right: 16rem;
+    bottom:3rem;
+    right: 15rem;
    
 }
 #leaf4-img{
     position: absolute;
-   left: 25rem;
-    top: 6rem;
+   left: 45.5rem;
+    top: 0.1rem;
 
+}
+#leaf5-img{
+    position: absolute;
+   left: 2rem;
+    top: 13rem;
+
+}
+#scoop{
+    position: absolute;
+    left: 8rem;
+    top: 4rem;
+    font-size: 75px;
+    font-family: "Chewy", system-ui;
+    font-weight: 800;
+    color: rgba(38, 4, 75, 0.603);
+    letter-spacing: 4px;
+}
+#happiness{
+    position: absolute;
+    left: 63rem;
+    top: 10rem;
+    font-family: "Chewy", system-ui;
+    font-size: 75px;
+     font-weight: 800;
+      letter-spacing: 4px;
+      color: rgba(38, 4, 75, 0.603);
+}
+#home-text{
+    position: absolute;
+    bottom: 17rem;
+    left: 2rem;    
 }

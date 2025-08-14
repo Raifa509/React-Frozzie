@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdShoppingCart } from "react-icons/md";
+import { FaUser } from "react-icons/fa";
 
 function Header() {
     return (
@@ -9,24 +10,27 @@ function Header() {
                 <div className='d-flex justify-content-between align-items-center'>
 
                     <div className='d-flex align-items-center'>
-                        <img src="/logo.png" alt="" width={'100px'} style={{ height: '100px' }} />
-                        <span style={{ marginLeft: '-25px', fontSize: '25px',fontFamily:'"Atma", system-ui', color: '#502201ff'}}>Frozzie</span>
+                        <img src="/logo.png" alt="" width={'95px'} style={{ height: '95px' }} />
+                        <span style={{ marginLeft: '-20px', fontSize: '22px', fontWeight: '600', fontFamily: '"Atma", system-ui', color: 'rgba(38, 4, 75, 0.834)' }}>Frozzie</span>
                     </div>
 
                     <div>
-                        <ul className='list-unstyled d-flex m-0 gap-4' style={{ color: '#502201ff', fontSize: '18px' }}>
-                            <li>Home</li>
-                            <li>About us</li>
-                            <li>Flavours</li>
-                            <li>Contact</li>
+                        <ul className='list-unstyled d-flex m-0 gap-4'>
+                            <li className="nav-item">Home</li>
+                            <li className="nav-item">About us</li>
+                            <li className="nav-item">Flavours</li>
+                            <li className="nav-item">Contact</li>
                         </ul>
                     </div>
+
                     <div>
-                      <MdShoppingCart style={{fontSize:'30px',color:'#502201ff'}}/>
+                        <MdShoppingCart className='nav-icon me-4' style={{ fontSize: '28px' }} />
+                        <FaUser className='nav-icon me-2' style={{ fontSize: '22px' }} />
                     </div>
+
                 </div>
             </section>
-            
+
         </>
     )
 }
