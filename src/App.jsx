@@ -1,12 +1,17 @@
-import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import LandingPage from './pages/LandingPage'
 
 function App() {
 
 
   return (
     <>
-    <h2>Hello</h2>
+    <div id='landing'className='vh-100'>
+    <Header/>
+    <LandingPage/> 
+    </div>
+
     </>
   )
 }
