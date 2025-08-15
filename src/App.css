@@ -80,3 +80,45 @@
     bottom: 17rem;
     left: 2rem;    
 }
+
+/* #home-img{
+    animation: moving 3s ease-in infinite;
+}
+@keyframes moving {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+} */
+/* flavours style */
+
+.flavour-card{
+
+    height: 200px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s ease;
+    align-items: center;
+}
+.flavour-card img{
+    
+    width: 150px;
+
+    
+}
+.flavour-card:hover{
+    transform: scale(1.08);
+}
+.flavour-name {
+    margin-top: 15px;
+ 
+}
