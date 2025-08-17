@@ -7,21 +7,21 @@ import { FaWhatsapp } from "react-icons/fa";
 function Footer() {
   return (
     <>
-    <section style={{backgroundColor:'rgba(41, 11, 72, 0.72)',height:'18rem'}}>
-        <div className='d-flex justify-content-between pt-5 px-5 text-light'>
-            <div>
-                <h4>Frozzie🍦</h4>
-            <p>Scoops of Happiness!</p>
+    <section style={{backgroundColor:'rgba(41, 11, 72, 0.72)',minHeight:'14rem'}}>
+        <div className='d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center pt-5 px-5 text-light'>
+            <div >
+                <h4 className='size text-start d-none d-md-block'>Frozzie🍦</h4>
+            <p className='size text-center d-none d-md-block'>Scoops of Happiness!</p>
          
 
             </div>
-            <div className='text-center' >
-                <h6>OPEN HOURS</h6>
-                <p>Monday-Saturday : 9:00 - 00:00</p>
-                <p>Sunday : 9:00 - 20:00 </p>
+            <div className='size text-center' >
+                <h6 className='size'>OPEN HOURS</h6>
+                <p className='size'>Monday-Saturday : 9:00 - 00:00</p>
+                <p className='size'>Sunday : 9:00 - 20:00 </p>
             </div>
             <div>
-                <h6>Follow us on</h6>
+                <h6 className='size'>Follow us on</h6>
                 <div className='d-flex justify-content-around'>
                     <FaInstagram />
                     <FaFacebook />
@@ -33,7 +33,7 @@ function Footer() {
             
 
         </div>
-        <p className='text-center text-light' style={{marginTop:'6rem'}}>© 2025 frozzieIceCreams. All rights reserved.</p>
+        <p id='reserve' className='text-center text-light'>© 2025 frozzieIceCreams. All rights reserved.</p>
         
     </section></>
   )

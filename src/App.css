@@ -4,23 +4,26 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+
 html {
-  scroll-behavior: smooth;
-}
-/* header */
-.nav-item,
-.nav-icon {
-    transition: transform 0.1s ease, color 0.1s ease;
-    cursor: pointer;
-    color: rgba(38, 4, 75, 0.834);
+    scroll-behavior: smooth;
 }
 
-.nav-item:hover,
+/* header */
+.nav-item a,
+.nav-icon {
+    text-decoration: none;
+    color: rgba(38, 4, 75, 0.834);
+    transition: transform 0.1s ease, color 0.1s ease;
+    cursor: pointer;
+}
+
+.nav-item a:hover,
 .nav-icon:hover {
     transform: scale(1.05);
     color: rgba(83, 9, 163, 0.834);
-
 }
+
 
 /* landing page */
 #landing {
@@ -95,21 +98,32 @@ html {
     left: 2rem;
 }
 
-/* #home-img{
-    animation: moving 3s ease-in infinite;
+@media (max-width: 768px) {
+  #scoop {
+    left: 2rem; 
+    top: 2rem;
+    font-size: 2rem;
+  }
+
+  #happiness {
+    left: 10rem;
+    top: 5rem;
+    font-size: 2rem;
+  }
+
+  #home-img {
+    width: 90%;
+    max-width: 250px;
+    margin-top: 7.5rem; 
+  }
+
+  #leaf1-img { top: 10.5rem; right: 2rem; width: 40px; }
+  #leaf2-img { bottom: 5rem; left: 2rem; width: 30px; }
+  #leaf3-img { bottom: 2rem; right: 1rem; width: 25px; }
+  #leaf4-img { top: 0.3rem; left: 4.5rem; width: 30px; }
+  #leaf5-img { top: 8rem; left: 11.5rem; width: 25px; }
 }
-@keyframes moving {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(10px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-    
-} */
+
 
 /* flavours style */
 
@@ -139,27 +153,125 @@ html {
 
 }
 
+@media (max-width:768px) {
+    .flavour-card {
+
+        height: 150px;
+        cursor: pointer;
+        width: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        transition: transform 0.2s ease;
+        align-items: center;
+    }
+
+    .flavour-card img {
+
+        width: 100px;
+    }
+}
+
 /* about section */
 
 .about-section {
-    background-color:#eecbe958;
-     /* background-color: #F3E8FF; */
-}
-.aboutText{
-    margin-top:10px;
-    padding-top:25px;
-    font-size:35px;
-    font-weight: 600;
-     color: rgba(99, 20, 93, 0.92);
-    font-family: '"Chewy", system-ui';
+    background-color: #eecbe958;
+    min-height: 100px;
+
 }
 
+
+#about-head {
+    margin-top: 10px;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(99, 20, 93, 0.92);
+    font-family: "Chewy", system-ui;
+}
+
+#about-img {
+    width: 460px;
+    margin-left: 30px;
+}
+
+
+#about-frozz {
+    margin-top: -25px;
+    font-size: 25px;
+    color: rgba(99, 20, 93, 0.92);
+}
+
+
+#about-para {
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+    color: #444;
+}
+
+.about-section p {
+    font-size: 17px;
+    line-height: 2;
+    color: #444;
+      text-align:justify ;
+}
+
+
+@media (max-width: 768px) {
+    .about-section {
+    padding: 10px;
+
+}
+    #about-head {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+
+    #about-img {
+        width: 200px;
+        margin-left: -15px;
+        margin-top: 4rem;
+    }
+
+    #about-frozz {
+        font-size: 15px;
+        margin-top: -12px;
+    }
+
+    #about-para {
+        font-size: 12px;
+        line-height: 1.4;
+   
+    }
+
+    .about-section p {
+        font-size: 12px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+}
+
+
+
+
 /* contact */
-#contact h1{
-    font-family:  'Chewy, system-ui';
+#contact h1 {
+    font-family: 'Chewy, system-ui';
     font-size: 30px;
     font-weight: 800;
     letter-spacing: 1.5px;
-    padding-top:15px;
+    padding-top: 15px;
     color: rgba(99, 20, 93, 0.92);
+}
+
+/* footer */
+
+#reserve{
+    margin-top: 2rem;
+    font-size: 15px;
+}
+.size{
+        font-size: 15px;
 }

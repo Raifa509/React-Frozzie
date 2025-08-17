@@ -16,7 +16,7 @@ function Review() {
                     {/* review cards */}
 
                     <div className="mt-4 row gap-3 d-flex justify-content-center align-items-stretch">
-                        <div className="col-3 " style={{ backgroundColor: "#fff" }}>
+                        <div className="col-md-3 " style={{ backgroundColor: "#fff" }}>
                             <div className='p-4 shadow rounded bg-white w-100 h-100 d-flex flex-column'>
                                 <Rating name="read-only" value={4} readOnly />
                                 <p className="mt-3 flex-grow-1" style={{ fontSize: "14px", color: "#444" }}>
@@ -28,7 +28,7 @@ function Review() {
                             </div>
                         </div>
 
-                        <div className="col-3" style={{ backgroundColor: "#fff" }}>
+                        <div className="col-md-3" style={{ backgroundColor: "#fff" }}>
                             <div className='p-4 shadow rounded bg-white w-100 h-100 d-flex flex-column'>
                                 <Rating name="read-only" value={5} readOnly />
                                 <p className="mt-3 flex-grow-1" style={{ fontSize: "14px", color: "#444" }}>
@@ -40,7 +40,7 @@ function Review() {
                             </div>
                         </div>
 
-                        <div className="col-3" style={{ backgroundColor: "#fff" }}>
+                        <div className="col-md-3" style={{ backgroundColor: "#fff" }}>
                             <div className='p-4 shadow rounded bg-white w-100 h-100 d-flex flex-column'>
                                 <Rating name="read-only" value={3} readOnly />
                                 <p className="mt-3 flex-grow-1" style={{ fontSize: "14px", color: "#444" }}>

@@ -14,7 +14,7 @@ function Contact() {
         <>
             <section className='p-5 container' id='contact'>
                 <div className="row">
-                    <div className="col-6 p-5">
+                    <div className="col-md-6 p-md-5 ">
                         <h1>Get In Touch</h1>
                         <div className='mb-5' style={{ height: '3px', width: '100px', backgroundColor: 'rgba(99, 20, 93, 0.92)' }}></div>
 
@@ -25,9 +25,9 @@ function Contact() {
                         <p style={{ color: '#555' }}><MdLocalPhone className='fs-4 me-2' />971 05456328</p>
                         <p style={{ color: '#555' }}><MdLocationCity className='fs-4 me-2' />123 Frosty Lane, Sweetville, Icecreamia, 45678</p>
                     </div>
-                    <div className="col-6 p-5">
+                    <div className="col-md-6 p-md-5">
 
-                        <Paper className='p-5'>
+                        <Paper className='p-md-5 p-3 mt-5 mt-md-0 mb-5'>
                             <h6 style={{ color: 'rgba(99, 20, 93, 0.92)' }} className='pb-3 text-center'>Send Us a Message</h6>
                             <TextField id="standard-basic" label="Name" variant="standard" className='w-100 pb-3' />
 
