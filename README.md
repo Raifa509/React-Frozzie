@@ -1,1 +1,2 @@
-Created a static ice cream website using html,css and react
+Created a static ice cream website using html,css, bootstrap and react
+
