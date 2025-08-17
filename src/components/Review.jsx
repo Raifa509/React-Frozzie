@@ -10,7 +10,7 @@ function Review() {
                     <div className='d-flex justify-content-center align-items-center flex-column'>
 
                         <h3 className='text-center pb-2 fs-3 pt-3' style={{ color: 'rgba(99, 20, 93, 0.92)', fontFamily: '"Atma", system-ui' }}>   What Our Customers Say</h3>
-                        <div className='mb-5' style={{ height: '2px', width: '100px', backgroundColor: 'rgba(99, 20, 93, 0.92)' }}></div>
+                        <div className='mb-5' style={{ height: '3px', width: '100px', backgroundColor: 'rgba(99, 20, 93, 0.92)' }}></div>
                     </div>
 
                     {/* review cards */}

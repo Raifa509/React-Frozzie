@@ -9,7 +9,7 @@ function Flavours() {
                 <div className='d-flex justify-content-center align-items-center flex-column'>
 
                     <h3 className='text-center pt-5 pb-2 fs-3' style={{ color: 'rgba(99, 20, 93, 0.92)', fontFamily: '"Atma", system-ui' }}>Pick Your Favorite Flavor</h3>
-                    <div className='mb-5' style={{height:'2px',width:'100px',backgroundColor:'rgba(99, 20, 93, 0.92)'}}></div>
+                    <div className='mb-5' style={{height:'3px',width:'100px',backgroundColor:'rgba(99, 20, 93, 0.92)'}}></div>
                 </div>
                 <div className='container-fluid mb-5' style={{ marginTop: '15px' }}>
                     <div className="row w-100">
