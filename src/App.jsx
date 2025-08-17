@@ -4,6 +4,8 @@ import Header from './components/Header'
 import LandingPage from './components/LandingPage'
 import Footer from './components/Footer'
 import About from './components/About'
+import Contact from './components/Contact'
+import Review from './components/Review'
 function App() {
 
 
@@ -14,6 +16,8 @@ function App() {
     <LandingPage/> 
     <Flavours/>
     <About/>
+    <Review/>
+    <Contact/>
     <Footer/>
    
     </div>

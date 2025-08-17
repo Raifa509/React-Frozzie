@@ -1,61 +1,71 @@
-*{
-    margin:0%;
+* {
+    margin: 0%;
     padding: 0%;
-     font-family: "Poppins", sans-serif;
-     font-weight: 500;
-}
-.nav-item,.nav-icon{
- transition: transform 0.1s ease, color 0.1s ease;
-  cursor: pointer;
-  color: rgba(38, 4, 75, 0.834);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
-.nav-item:hover,.nav-icon:hover {
-  transform: scale(1.05); 
-  color: rgba(83, 9, 163, 0.834);
-  
+/* header */
+.nav-item,
+.nav-icon {
+    transition: transform 0.1s ease, color 0.1s ease;
+    cursor: pointer;
+    color: rgba(38, 4, 75, 0.834);
 }
 
+.nav-item:hover,
+.nav-icon:hover {
+    transform: scale(1.05);
+    color: rgba(83, 9, 163, 0.834);
 
-#landing{
+}
+
+/* landing page */
+#landing {
     background-color: #F3E8FF;
 
 }
 
-#main-div-landing{
+#main-div-landing {
     position: relative;
 }
-#leaf1-img{
+
+#leaf1-img {
     position: absolute;
     top: -1rem;
     right: 7rem;
-  
+
 }
-#leaf2-img{
+
+#leaf2-img {
     position: absolute;
     left: 15rem;
     bottom: 7rem;
-    
+
 }
-#leaf3-img{
+
+#leaf3-img {
     position: absolute;
-    bottom:3rem;
+    bottom: 3rem;
     right: 15rem;
-   
+
 }
-#leaf4-img{
+
+#leaf4-img {
     position: absolute;
-   left: 45.5rem;
+    left: 45.5rem;
     top: 0.1rem;
 
 }
-#leaf5-img{
+
+#leaf5-img {
     position: absolute;
-   left: 2rem;
+    left: 2rem;
     top: 13rem;
 
 }
-#scoop{
+
+#scoop {
     position: absolute;
     left: 8rem;
     top: 4rem;
@@ -65,20 +75,22 @@
     color: rgba(38, 4, 75, 0.603);
     letter-spacing: 4px;
 }
-#happiness{
+
+#happiness {
     position: absolute;
     left: 63rem;
     top: 10rem;
     font-family: "Chewy", system-ui;
     font-size: 75px;
-     font-weight: 800;
-      letter-spacing: 4px;
-      color: rgba(38, 4, 75, 0.603);
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: rgba(38, 4, 75, 0.603);
 }
-#home-text{
+
+#home-text {
     position: absolute;
     bottom: 17rem;
-    left: 2rem;    
+    left: 2rem;
 }
 
 /* #home-img{
@@ -96,9 +108,10 @@
     }
     
 } */
+
 /* flavours style */
 
-.flavour-card{
+.flavour-card {
 
     height: 200px;
     cursor: pointer;
@@ -109,16 +122,32 @@
     transition: transform 0.2s ease;
     align-items: center;
 }
-.flavour-card img{
-    
-    width: 150px;
 
-    
+.flavour-card img {
+
+    width: 150px;
 }
-.flavour-card:hover{
+
+.flavour-card:hover {
     transform: scale(1.08);
 }
+
 .flavour-name {
     margin-top: 15px;
- 
+
+}
+
+/* about section */
+
+.about-section {
+    background-color:#eecbe958;
+     /* background-color: #F3E8FF; */
+}
+.aboutText{
+    margin-top:10px;
+    padding-top:25px;
+    font-size:35px;
+    font-weight: 600;
+     color: rgba(99, 20, 93, 0.92);
+    font-family: '"Chewy", system-ui';
 }
